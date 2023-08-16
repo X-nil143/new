@@ -326,13 +326,7 @@ def main():
     if sh =='5':
        os.system(' ')
        menu()
-    if sh =='6':
-      # os.system('xdg-open https://www.facebook.com/profile.php?id=100000446995720')
-     #  main()  
-
-        
-        
-def menu():
+    def menu():
 	os.system('clear')
 	banner()
 	print('\x1b[97;1m[1] Crack random Clone Method 1')
